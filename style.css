@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  font-family: "Bungee", cursive;
+}
+
+.container {
+  padding-right: 64px;
+  padding-left: 64px;
+}
+
+header {
+  background-color: #14161b;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  padding: 26px 0px;
+}
+
+header nav a {
+  color: #4010b2;
+  text-decoration: none;
+}
+
+body a {
+  color: #4010b2;
+  text-decoration: none;
+}
+
+body {
+  background: rgb(123, 13, 186);
+  background: linear-gradient(
+    90deg,
+    rgba(123, 13, 186, 1) 0%,
+    rgba(110, 50, 140, 1) 25%,
+    rgba(114, 23, 181, 1) 50%,
+    rgba(117, 0, 255, 1) 75%,
+    rgba(67, 0, 173, 1) 100%
+  );
+}
+
+body h1 {
+  color: white;
+  padding-top: 54px;
+  padding-left: 36px;
+}
+
+body h2 {
+  color: white;
+  padding-left: 12px;
+  padding-top: 12px;
+}
+
+body h3 {
+  color: white;
+  padding-left: 12px;
+  padding-top: 12px;
+}
+
+button {
+  background-color: #14161b;
+}
